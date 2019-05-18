@@ -3399,52 +3399,6 @@
       ],
       "value": ""
     }]
-  }, {
-    "id": "86eb6369-6d6f-432a-b6e9-c1b53a3ce2a1",
-    "name": "100 Log out",
-    "commands": [{
-      "id": "78c19cb3-a8bf-476c-9235-0298ba9c6309",
-      "comment": "",
-      "command": "open",
-      "target": "/index.html",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3995af7f-9e30-4d4a-ba5a-cfb85c3cd52d",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1920x1160",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "35b3c5d2-c7fd-4c95-a1a0-771f80dfc155",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=jlevym",
-      "targets": [
-        ["linkText=jlevym", "linkText"],
-        ["css=#profileloginbutton-desktop > .hidden-sm > .header-login > .ng-binding", "css:finder"],
-        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#!/user/create/invites')]", "xpath:href"],
-        ["xpath=//span/a", "xpath:position"],
-        ["xpath=//a[contains(.,' jlevym')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "3ef687e5-f3bb-4a68-9cc1-64f27167c866",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Logout",
-      "targets": [
-        ["linkText=Logout", "linkText"],
-        ["css=.open li:nth-child(12) > .ng-binding", "css:finder"],
-        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
-        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/ul/li[12]/a", "xpath:idRelative"],
-        ["xpath=//li[12]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }]
   }],
   "suites": [{
     "id": "b19a503f-49d2-4802-b41b-e0ba9e4caf33",
