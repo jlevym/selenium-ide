@@ -3058,6 +3058,393 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "fddfb6d4-1912-4ddf-80d0-aa2db3de9a95",
+    "name": "4.5 Clear all reports ",
+    "commands": [{
+      "id": "7fb08d6a-28bd-4a8f-ae12-678f12e4e5bd",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f5341b4-a161-4bdb-9ead-d74e3a1318c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cc9162e-a719-4eaf-9ef5-e797a8f6eff0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=jlevym",
+      "targets": [
+        ["linkText=jlevym", "linkText"],
+        ["css=#profileloginbutton-desktop > .hidden-sm > .header-login > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#!/user/create/invites')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,' jlevym')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0996b3d2-6588-44c2-b43d-05eb0cd633bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reports",
+      "targets": [
+        ["linkText=Reports", "linkText"],
+        ["css=.open li:nth-child(2) > .ng-binding", "css:finder"],
+        ["xpath=//a[contains(text(),'Reports')]", "xpath:link"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#!/user/create/reports')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43c3987e-2cef-4802-bfbe-f9129d12a932",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cafe115c-6d3b-4ff0-b711-0fc09e8977a9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.report-type-selection",
+      "targets": [],
+      "value": "label=Lessons done by me"
+    }, {
+      "id": "b238f087-db89-4169-8b52-f57a72b36045",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "471f0f06-d321-4ca8-886f-c79219dd9cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown > .ng-pristine",
+      "targets": [
+        ["css=.dropdown > .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/input", "xpath:idRelative"],
+        ["xpath=//td/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2468c00-ab7a-44b3-8bba-18cf941041a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caret",
+      "targets": [
+        ["css=.caret", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//td/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4063e113-7073-4eee-81a8-b418d8f67d19",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74fb27a1-cd28-4233-b3c5-77b61d3fa11e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delete",
+      "targets": [
+        ["linkText=Delete", "linkText"],
+        ["css=.delete-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'Delete')]", "xpath:link"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//td/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca1a20b-c680-43ab-897d-96e276c32e67",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "Are you sure you want to delete the marked reports? This action cannot be undone. ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eacb0cf5-6486-4bb6-a573-b8a415d2b8a2",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9015e52f-e920-4bed-ac6a-62173ef6742f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "347114e3-d35e-4693-9c41-eef705eb464d",
+      "comment": "",
+      "command": "select",
+      "target": "css=.report-type-selection",
+      "targets": [],
+      "value": "label=Student reports"
+    }, {
+      "id": "7d82c3a7-60ff-4bad-bddc-c7bd630513bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c04ac309-0729-4432-b2af-095f52d05475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown > .ng-valid",
+      "targets": [
+        ["css=.dropdown > .ng-valid", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/input", "xpath:idRelative"],
+        ["xpath=//td/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a450236-10a1-4ff2-a9d9-390e8c927286",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caret",
+      "targets": [
+        ["css=.caret", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//td/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8aa94f5-5d03-4157-a06c-79d1eeecd451",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d30539e0-b766-48e6-b43b-c84a5ed827f2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delete",
+      "targets": [
+        ["linkText=Delete", "linkText"],
+        ["css=.delete-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'Delete')]", "xpath:link"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//td/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c66f9ec0-b38e-4fc8-b6f0-4675f821db53",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "Are you sure you want to delete the marked reports? This action cannot be undone. ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee04daa2-3ea6-4f56-875a-4197662d7a90",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e2c9159-ebeb-4e0f-99b3-b813e82fc6d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ba1e06-c164-42c0-bb28-cead45d37098",
+      "comment": "",
+      "command": "select",
+      "target": "css=.report-type-selection",
+      "targets": [],
+      "value": "label=Class reports"
+    }, {
+      "id": "0aa253bd-9fac-45e3-b827-677c8a2ae857",
+      "comment": "",
+      "command": "click",
+      "target": "css=.report-type-selection",
+      "targets": [
+        ["css=.report-type-selection", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9152b09f-98ce-4e7f-849d-547f5f26d9d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown > .ng-valid",
+      "targets": [
+        ["css=.dropdown > .ng-valid", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/input", "xpath:idRelative"],
+        ["xpath=//td/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e889a0f-9f06-4424-a94a-a0e93cc8ea1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caret",
+      "targets": [
+        ["css=.caret", "css:finder"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//td/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a7d2fe9-2548-417b-aa38-a843da8474c4",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b872f93b-8ea6-42ba-b869-df7d98eaf1d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delete",
+      "targets": [
+        ["linkText=Delete", "linkText"],
+        ["css=.delete-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'Delete')]", "xpath:link"],
+        ["xpath=//div[@id='reportIndex']/div/div/div[2]/div[4]/table/thead/tr/td/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//td/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d2b2e01-7edf-4cfb-abc6-cd6169edb631",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "Are you sure you want to delete the marked reports? This action cannot be undone. ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "728f8953-94e3-4bed-897d-ff29a56518f3",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b8cb554-d549-480b-926f-ef0eb83d1087",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e96020eb-a602-4d2c-88c7-42a8a6395939",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b779860b-8109-4559-8844-d54c2756aec5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86eb6369-6d6f-432a-b6e9-c1b53a3ce2a1",
+    "name": "100 Log out",
+    "commands": [{
+      "id": "78c19cb3-a8bf-476c-9235-0298ba9c6309",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3995af7f-9e30-4d4a-ba5a-cfb85c3cd52d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35b3c5d2-c7fd-4c95-a1a0-771f80dfc155",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=jlevym",
+      "targets": [
+        ["linkText=jlevym", "linkText"],
+        ["css=#profileloginbutton-desktop > .hidden-sm > .header-login > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#!/user/create/invites')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,' jlevym')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ef687e5-f3bb-4a68-9cc1-64f27167c866",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.open li:nth-child(12) > .ng-binding", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/ul/li[12]/a", "xpath:idRelative"],
+        ["xpath=//li[12]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b19a503f-49d2-4802-b41b-e0ba9e4caf33",
