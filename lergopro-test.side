@@ -3806,6 +3806,166 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "330c4fb7-5cfd-49bc-b86b-2d6ad880005a",
+    "name": "5.5 Clear all invites",
+    "commands": [{
+      "id": "26d4cabb-6b75-4f76-bf2b-b1134651d8a4",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7572369c-4af6-40d4-ab21-910cc30096f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf30f4bb-2746-4be0-80f5-5900dac20000",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=jlevym",
+      "targets": [
+        ["linkText=jlevym", "linkText"],
+        ["css=#profileloginbutton-desktop > .hidden-sm > .header-login > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#!/user/create/invites')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,' jlevym')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c05464-a15e-41af-a876-330c85b21604",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Invites",
+      "targets": [
+        ["linkText=Invites", "linkText"],
+        ["css=.open li:nth-child(1) > .ng-binding", "css:finder"],
+        ["xpath=//a[contains(text(),'Invites')]", "xpath:link"],
+        ["xpath=//div[@id='profileloginbutton-desktop']/div[2]/span/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#!/user/create/invites')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Invites')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc25a735-84cf-4623-ae8c-4b2709af8eb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(15) .ng-pristine",
+      "targets": [
+        ["css=span:nth-child(15) .ng-pristine", "css:finder"],
+        ["xpath=//div[@id='inviteIndex']/div/div/div/div/div/div[2]/div/nav/div[2]/div/form/span[11]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//span[11]/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba74e6c-d152-4e7b-86eb-2832478db12d",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(15) .ng-pristine",
+      "targets": [
+        ["css=span:nth-child(15) .ng-pristine", "css:finder"],
+        ["xpath=//div[@id='inviteIndex']/div/div/div/div/div/div[2]/div/nav/div[2]/div/form/span[11]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//span[11]/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "036e1bb4-204f-4f79-98b5-3600ce90fdca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown > .ng-pristine",
+      "targets": [
+        ["css=.dropdown > .ng-pristine", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='inviteIndex']/div/div/div[2]/div[3]/div/table/thead/tr/td/div/div/input", "xpath:idRelative"],
+        ["xpath=//td/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5ad765d-502c-467f-ac8c-694bc6e4f796",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caret",
+      "targets": [
+        ["css=.caret", "css:finder"],
+        ["xpath=//div[@id='inviteIndex']/div/div/div[2]/div[3]/div/table/thead/tr/td/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//td/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ac7445-2ac1-486c-a59c-89e6484f9e1c",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad1850c5-25dc-439b-b797-aecdc22aac6e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delete",
+      "targets": [
+        ["linkText=Delete", "linkText"],
+        ["css=.delete-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'Delete')]", "xpath:link"],
+        ["xpath=//div[@id='inviteIndex']/div/div/div[2]/div[3]/div/table/thead/tr/td/div/div/ul/li/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93a4c57-f2cd-4d02-af69-38a2462282a5",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "Are you sure you want to delete this invite? This action cannot be undone.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5243a6f8-db28-4f46-8aa7-310dad9531ee",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4bbae8f-f8ba-4938-8647-c453db5d75fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fc33384-8f3b-4266-b809-7f42fb9e3b0c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456012cd-c310-475a-9b9d-5c6f912579ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.d-image",
+      "targets": [
+        ["css=.d-image", "css:finder"],
+        ["xpath=//nav[@id='header-mobile']/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b19a503f-49d2-4802-b41b-e0ba9e4caf33",
