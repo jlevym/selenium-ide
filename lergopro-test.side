@@ -5,7 +5,7 @@
   "url": "https://lergopro.com",
   "tests": [{
     "id": "64340775-18ad-4c9d-b7b7-120dda013851",
-    "name": "2 Student invite plays lesson and erases report",
+    "name": "8. Student invite plays lesson and erases report",
     "commands": [{
       "id": "55da71d9-ebf6-49c4-ab62-1b236ba5f718",
       "comment": "Opening lergopro",
@@ -553,7 +553,7 @@
     }]
   }, {
     "id": "62149efd-c747-4d48-9622-ee0aec31f8fc",
-    "name": "1 Create play erase report erase lesson",
+    "name": "6. Create play erase report erase lesson",
     "commands": [{
       "id": "828203d2-ab6d-4760-b730-3a951940dfb0",
       "comment": "",
@@ -1307,7 +1307,7 @@
     }]
   }, {
     "id": "391d66b5-6021-4595-97d2-cc4f035deb06",
-    "name": "3 Create lesson with 4 questions",
+    "name": "10. Create lesson with 4 questions",
     "commands": [{
       "id": "33a5967c-c761-4a4a-9240-eea5ce83c8bf",
       "comment": "",
@@ -1852,7 +1852,7 @@
     }]
   }, {
     "id": "e46c5a44-c437-4987-baad-7a7dd1fca2c0",
-    "name": "4. Invite 2 people in class",
+    "name": "14. Invite 2 people in class",
     "commands": [{
       "id": "437b0280-2990-4e01-b402-00714da42def",
       "comment": "",
@@ -2740,7 +2740,7 @@
     }]
   }, {
     "id": "0768c183-ece1-4e38-9709-d496983d2d93",
-    "name": "3.5 Clear all reports",
+    "name": "12. Clear all reports",
     "commands": [{
       "id": "79b03743-4496-4f09-a761-40df5b863e12",
       "comment": "",
@@ -3088,7 +3088,7 @@
     }]
   }, {
     "id": "fddfb6d4-1912-4ddf-80d0-aa2db3de9a95",
-    "name": "0.1 Clear all reports ",
+    "name": "4. Clear all reports ",
     "commands": [{
       "id": "7fb08d6a-28bd-4a8f-ae12-678f12e4e5bd",
       "comment": "",
@@ -3596,7 +3596,7 @@
     }]
   }, {
     "id": "6786760d-1434-4693-8f6a-833b98cb0690",
-    "name": "5. Invite filter check",
+    "name": "16. Invite filter check",
     "commands": [{
       "id": "beb8660f-85b4-4d36-bfae-1827aca4035a",
       "comment": "",
@@ -3999,7 +3999,7 @@
     }]
   }, {
     "id": "6c6515e5-ed13-473e-a11d-e9d35db476e3",
-    "name": "6. Test reports filter by lesson name",
+    "name": "20. Test reports filter by lesson name",
     "commands": [{
       "id": "9118f0b4-a4a5-46a4-ad01-756c7db62633",
       "comment": "",
@@ -4104,6 +4104,13 @@
         ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
         ["xpath=//a[contains(.,'test class invite lesson report')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "55007721-521b-4e7a-a443-cc26be42782b",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
       "value": ""
     }, {
       "id": "582346b7-0bb2-47d4-9690-362ae0e37731",
@@ -4274,7 +4281,7 @@
     }]
   }, {
     "id": "8f921221-0cae-4482-b4cd-4006f47a7375",
-    "name": "5.5 Copy Play Delete lesson",
+    "name": "18.  Copy Play Delete lesson",
     "commands": [{
       "id": "ee33e5e1-c85a-447d-ba36-a2ea4fa58959",
       "comment": "",
